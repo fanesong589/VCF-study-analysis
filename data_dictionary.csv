@@ -1,0 +1,16 @@
+variable,definition
+center,"Center 1 = Gangnam, Center 2 = Sinchon. Model reference Center 2."
+report_group,"0 unreported, 1 reported on index APCT. Reference 0."
+sex,Female or Male. Reference Female.
+bmi,"Body mass index, kg/m^2 at index APCT."
+age,Age in years at index APCT.
+htn,"No or Yes, documented hypertension at index APCT."
+dm,"No or Yes, documented diabetes mellitus at index APCT."
+ckd,"No or Yes, documented chronic kidney disease at index APCT."
+procedure_flag,"Original codes: 1 or 3 = prior fracture-related procedure, 0 or 2 = absent. Used as binary only."
+moderate_count,Number of baseline moderate VCFs at T10-L5.
+severe_count,Number of baseline severe VCFs at T10-L5.
+additional_fx_yes,0 or 1: additional moderate/severe VCF at a previously unfractured T10-L5 level on eligible follow-up imaging. Progression alone excluded.
+med_90d,"0 or 1: new EMR-documented qualifying medication within 90 days. Qualifying agents per Supplementary Table S1, including calcium/vitamin D."
+clinic_90d,"0 or 1: related clinic attendance within 90 days, departments defined in manuscript."
+followup_months,"Recorded follow-up duration in calendar months. Approved Gap variable retained, not exact elapsed days."
